@@ -1,0 +1,56 @@
+/* Market.css */
+
+.market-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 70px;
+    box-sizing: border-box; /* Ensure padding is included in total width */
+  }
+  
+  .left-img {
+    flex: 2;
+    padding-right: 30px; /* Increased space between image and content */
+    justify-content: center;
+  }
+  
+  .market-image {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .right-content {
+    flex: 2;
+  }
+  
+  .right-content h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #333; /* Darker color for better contrast */
+  }
+  
+  .right-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.6; /* Improve readability */
+    color: #555; /* Slightly lighter color for the text */
+  }
+  
+  .right-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333; /* Darker color for better contrast */
+  }
+  
+  .link-text {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make links bold */
+  }
+  
+  .link-text:hover {
+    text-decoration: underline; /* Underline on hover for better visibility */
+  }
+  

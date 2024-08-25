@@ -1,0 +1,72 @@
+.SignUp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .left {
+    flex: 1;
+  }
+  
+  .hero-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .input-container {
+    margin: 20px 0;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .country-code {
+    padding: 10px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-right: none;
+  }
+  
+  input[type="tel"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    flex: 1;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+  }
+  

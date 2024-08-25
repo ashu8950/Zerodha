@@ -1,0 +1,49 @@
+/* OpenAccount.css */
+
+.open-account-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in total width */
+    background-color: #f8f9fa; /* Light background color for contrast */
+  }
+  
+  .open-account-content {
+    text-align: center; /* Center text and elements */
+    max-width: 600px; /* Limit the width for better readability */
+    padding: 20px;
+    background-color: #fff; /* White background for the content box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+  }
+  
+  .open-account-content h1 {
+    font-size: 2.5rem; /* Larger font size for the heading */
+    margin-bottom: 15px;
+    color: #333; /* Darker color for better contrast */
+  }
+  
+  .open-account-content p {
+    font-size: 1.2rem; /* Slightly larger font size for the paragraph */
+    margin-bottom: 20px;
+    color: #555; /* Slightly lighter color for the text */
+  }
+  
+  .sign-up-button {
+    display: inline-block;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #007bff; /* Button color */
+    text-decoration: none;
+    padding: 12px 24px; /* Padding for the button */
+    border-radius: 6px; /* Rounded corners for the button */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+  }
+  
+  .sign-up-button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+  }
+  

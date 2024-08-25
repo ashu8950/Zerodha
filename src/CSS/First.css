@@ -1,0 +1,72 @@
+/* First.css */
+
+.first-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .first-left {
+    flex: 1;
+    padding-right: 100px; 
+  }
+  
+  .first-hero-image {
+    width: 100%;
+    max-width: 400px; 
+    height: auto; 
+  }
+  
+  .first-right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .first-heading {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .first-subheading {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.6; 
+    text-align: center;
+  }
+  
+  .first-list {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    padding: 0;
+    list-style: none; 
+    margin: 0;
+    
+  }
+  
+  .first-list li {
+    flex: 1 1 50%; /* Each item takes up half the width */
+    box-sizing: border-box; /* Include padding in width calculation */
+    padding: 0 10px; /* Space between columns */
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .first-list li::before {
+    content: "•"; /* Custom bullet point */
+    color: #007bff; /* Adjust color as needed */
+    font-size: 1.2rem; /* Size of the bullet point */
+    margin-right: 10px; /* Space between bullet and text */
+    display: inline-block;
+  }
+  
+  .first-list li:last-child {
+    margin-bottom: 0; /* Remove bottom margin for the last item */
+  }
+  

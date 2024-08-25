@@ -1,0 +1,101 @@
+/* Footer.css */
+
+.footer {
+    background-color: #e9ecef; /* Slightly darker background color */
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+  }
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column; /* Stack logo and text vertically */
+    align-items: flex-start; /* Align items to the start (left) */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 20px;
+  }
+  
+  .footer-left .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff; /* Adjust color for logo */
+    margin-bottom: 10px;
+  }
+  
+  .footer-right {
+    display: flex;
+    justify-content: flex-end; /* Align sections to the right */
+    flex-wrap: wrap; /* Ensure content wraps on smaller screens */
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px; /* Ensure sections are responsive */
+    margin-right: 30px;
+    justify-content: center;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .footer-section:last-child {
+    margin-right: 0; /* Remove margin on the last section */
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #0056b3; /* Change link color */
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-disclaimer {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center; /* Center text horizontally */
+    line-height: 1.6;
+    padding-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: auto; /* Push disclaimer to the bottom if necessary */
+}
+  .footer-disclaimer a {
+    color: #0056b3; /* Change link color in disclaimer */
+    text-decoration: none;
+  }
+  
+  .footer-disclaimer a:hover {
+    text-decoration: underline;
+  }
+  
